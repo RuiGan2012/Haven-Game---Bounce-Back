@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Testing",
-    "path":"sprites/spr_Testing/spr_Testing.yy",
+    "name":"spr_brute",
+    "path":"sprites/spr_brute/spr_brute.yy",
   },
   "spriteMaskId":null,
   "visible":true,

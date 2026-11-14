@@ -72,7 +72,20 @@ function get_stats(card)
                 mana: 1,
                 damage: 0,
                 self_damage: 0,
-                damage_multipler: 1.5,
+                damage_multipler: 0.5,
+                heal: 0,
+                mana_heal: 0,
+                draw_card: 0,
+                autoparry: false,
+                parry_damage: 0
+            }        
+            
+        case spr_card_strats:
+            return {
+                mana: 5,
+                damage: 6,
+                self_damage: 3,
+                damage_multipler: 0,
                 heal: 0,
                 mana_heal: 0,
                 draw_card: 0,
