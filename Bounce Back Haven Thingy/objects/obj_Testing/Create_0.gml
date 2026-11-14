@@ -1,4 +1,2 @@
-x = 0;
-y = 0;
-x += 1;
-y += 1;
+tilemap = layer_tilemap_get_id("tiles_col");
+move_speed = 2;

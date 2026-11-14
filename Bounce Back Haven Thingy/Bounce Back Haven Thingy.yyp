@@ -29,8 +29,8 @@
     {"id":{"name":"obj_Testing","path":"objects/obj_Testing/obj_Testing.yy",},},
     {"id":{"name":"Battle","path":"rooms/Battle/Battle.yy",},},
     {"id":{"name":"MafiaHQ","path":"rooms/MafiaHQ/MafiaHQ.yy",},},
-    {"id":{"name":"sound_testing","path":"sounds/sound_testing/sound_testing.yy",},},
     {"id":{"name":"spr_Battle_Background","path":"sprites/spr_Battle_Background/spr_Battle_Background.yy",},},
+    {"id":{"name":"spr_blank_bg","path":"sprites/spr_blank_bg/spr_blank_bg.yy",},},
     {"id":{"name":"spr_Testing","path":"sprites/spr_Testing/spr_Testing.yy",},},
     {"id":{"name":"spr_use_card","path":"sprites/spr_use_card/spr_use_card.yy",},},
     {"id":{"name":"Sprite6","path":"sprites/Sprite6/Sprite6.yy",},},
@@ -39,8 +39,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Battle","path":"rooms/Battle/Battle.yy",},},
     {"roomId":{"name":"MafiaHQ","path":"rooms/MafiaHQ/MafiaHQ.yy",},},
+    {"roomId":{"name":"Battle","path":"rooms/Battle/Battle.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

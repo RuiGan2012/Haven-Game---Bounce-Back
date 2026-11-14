@@ -12,8 +12,8 @@
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"Bounce Back Haven Thingy",
-    "path":"Bounce Back Haven Thingy.yyp",
+    "name":"tiles",
+    "path":"folders/Sprites/tiles.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",

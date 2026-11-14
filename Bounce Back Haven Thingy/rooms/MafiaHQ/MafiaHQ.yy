@@ -5,11 +5,29 @@
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
-  "instanceCreationOrder":[],
+  "instanceCreationOrder":[
+    {"name":"inst_2FF40707","path":"rooms/MafiaHQ/MafiaHQ.yy",},
+  ],
   "isDnd":false,
   "layers":[
-    {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+    {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"v4","%Name":"inst_2FF40707","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2FF40707","objectId":{"name":"obj_Testing","path":"objects/obj_Testing/obj_Testing.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":96.0,},
+      ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+    {"$GMRTileLayer":"","%Name":"tiles_col","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"tiles_col","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":19,"SerialiseWidth":34,"TileCompressedData":[
+          -35,255,-5,-2147483648,-2,275,-13,-2147483648,-2,235,-10,-2147483648,-2,255,-5,-2147483648,-2,275,-13,
+          -2147483648,-2,235,-10,-2147483648,-2,255,-5,-2147483648,-2,275,-7,235,-6,-2147483648,-2,235,-10,-2147483648,
+          -2,255,-5,-2147483648,-2,275,-7,235,-6,-2147483648,-2,235,-10,-2147483648,-2,255,-5,-2147483648,-2,275,
+          -13,-2147483648,-2,235,-10,-2147483648,-2,255,-5,-2147483648,-2,275,-13,-2147483648,-2,235,-4,-2147483648,
+          -6,235,-2,255,-5,-2147483648,-2,275,-13,-2147483648,-2,235,-4,-2147483648,-6,256,-2,255,-20,-2147483648,
+          -2,235,-10,-2147483648,-2,255,-12,-2147483648,-2,276,-6,-2147483648,-2,235,-10,-2147483648,2,255,275,
+          -12,-2147483648,-2,276,-6,-2147483648,-2,235,-6,0,-4,-2147483648,-2,275,-12,-2147483648,-2,276,-6,-2147483648,
+          -2,235,-6,276,-4,-2147483648,-9,275,-5,-2147483648,-2,276,-6,-2147483648,-2,235,-6,276,-4,-2147483648,
+          -2,275,-7,256,-5,-2147483648,-2,276,-18,-2147483648,-2,275,-12,-2147483648,-2,276,-18,-2147483648,-2,
+          275,-12,-2147483648,-2,276,-18,-2147483648,-2,275,-12,-2147483648,-2,276,-6,-2147483648,-2,235,-8,-2147483648,
+          -2,0,-2,275,-12,-2147483648,-2,276,-6,-2147483648,-2,235,-8,-2147483648,3,0,-2147483648,275,-34,258,
+        ],"TileDataFormat":1,},"tilesetId":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+    {"$GMRTileLayer":"","%Name":"tiles_back","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"tiles_back","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":19,"SerialiseWidth":34,"TileCompressedData":[-363,-2147483648,-6,0,-28,-2147483648,-6,0,-243,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.05,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_blank_bg","path":"sprites/spr_blank_bg/spr_blank_bg.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.05,"vtiled":true,"x":0,"y":0,},
   ],
   "name":"MafiaHQ",
   "parent":{
@@ -34,7 +52,7 @@
   },
   "sequenceId":null,
   "views":[
-    {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":100,"hport":900,"hspeed":-1,"hview":300,"inherit":false,"objectId":{"name":"obj_Testing","path":"objects/obj_Testing/obj_Testing.yy",},"vborder":100,"visible":true,"vspeed":-1,"wport":1500,"wview":500,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
@@ -46,7 +64,7 @@
   "viewSettings":{
     "clearDisplayBuffer":true,
     "clearViewBackground":false,
-    "enableViews":false,
+    "enableViews":true,
     "inheritViewSettings":false,
   },
   "volume":1.0,
