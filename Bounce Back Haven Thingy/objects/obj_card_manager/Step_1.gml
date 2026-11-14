@@ -5,6 +5,7 @@ if ds_list_size(cards_in_hand) != current_list_size
     card_counter = 0
     with (obj_card)
     {
+        image_alpha = 1
         y = room_height-95
         if other.current_list_size%2 == 1
         {
