@@ -1,1 +1,1 @@
-instance_create_layer(0,0,"Instances",obj_card)
+instance_create_layer(0,0,"Instances",obj_card, {sprite_index: spr_card_autoparry})

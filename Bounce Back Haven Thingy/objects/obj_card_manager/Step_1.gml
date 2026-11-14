@@ -1,6 +1,3 @@
-show_debug_message(ds_list_size(cards_in_hand))
-if ds_list_size(cards_in_hand) != current_list_size
-{
     current_list_size = ds_list_size(cards_in_hand)
     card_counter = 0
     with (obj_card)
@@ -33,4 +30,3 @@ if ds_list_size(cards_in_hand) != current_list_size
         }
     	other.card_counter += 1
     }
-}
