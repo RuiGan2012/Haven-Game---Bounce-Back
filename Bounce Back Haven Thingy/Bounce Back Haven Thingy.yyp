@@ -25,6 +25,7 @@
   "resources":[
     {"id":{"name":"obj_Testing","path":"objects/obj_Testing/obj_Testing.yy",},},
     {"id":{"name":"Battle","path":"rooms/Battle/Battle.yy",},},
+    {"id":{"name":"sound_testing","path":"sounds/sound_testing/sound_testing.yy",},},
     {"id":{"name":"spr_Battle_Background","path":"sprites/spr_Battle_Background/spr_Battle_Background.yy",},},
     {"id":{"name":"MafiaHQ","path":"rooms/MafiaHQ/MafiaHQ.yy",},},
     {"id":{"name":"spr_Testing","path":"sprites/spr_Testing/spr_Testing.yy",},},
