@@ -31,13 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-<<<<<<< Updated upstream:Bounce Back Haven Thingy/objects/obj_Testing/obj_Testing.yy
-    "name":"spr_Battle_Player",
-    "path":"sprites/spr_Battle_Player/spr_Battle_Player.yy",
-=======
     "name":"spr_front_stand",
     "path":"sprites/spr_front_stand/spr_front_stand.yy",
->>>>>>> Stashed changes:Bounce Back Haven Thingy/objects/obj_player/obj_player.yy
   },
   "spriteMaskId":null,
   "visible":true,
