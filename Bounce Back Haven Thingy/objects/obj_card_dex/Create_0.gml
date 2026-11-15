@@ -13,7 +13,8 @@ function get_stats(card)
                 mana_heal: 0,
                 draw_card: 0,
                 autoparry: true,
-                parry_damage: 0
+                parry_damage: 0,
+                description: "“Autoparry card. No timing needed.”"
             }
             
         case spr_card_capone:
@@ -27,7 +28,8 @@ function get_stats(card)
                 mana_heal: 0,
                 draw_card: 0,
                 autoparry: false,
-                parry_damage: 3
+                parry_damage: 3,
+                description: "“They say Al Capone used this card. Parry to damage the enemy.”"
                 
             }
             
@@ -42,7 +44,8 @@ function get_stats(card)
                 mana_heal: 2,
                 draw_card: 0,
                 autoparry: false,
-                parry_damage: 0
+                parry_damage: 0,
+                description: "“The Dealmaker. Exchange life for magic.”"
             }
             
         case spr_card_relax:
@@ -56,7 +59,8 @@ function get_stats(card)
                 mana_heal: 0,
                 draw_card: 0,
                 autoparry: false,
-                parry_damage: 0
+                parry_damage: 0,
+                description: "“A rare example of a healing card. Passive bonus.”"
             }
             
         case spr_card_rules:
@@ -70,7 +74,8 @@ function get_stats(card)
                 mana_heal: 0,
                 draw_card: 2,
                 autoparry: false,
-                parry_damage: 0
+                parry_damage: 0,
+                description: "“The roulxs card, pronounced rules. Draws two cards.”"
             }        
             
         case spr_card_sharpen:
@@ -84,7 +89,8 @@ function get_stats(card)
                 mana_heal: 0,
                 draw_card: 0,
                 autoparry: false,
-                parry_damage: 0
+                parry_damage: 0,
+                description: "“A papercut factory. Hurts to hold.”"
             }        
             
         case spr_card_strats:
@@ -98,7 +104,8 @@ function get_stats(card)
                 mana_heal: 0,
                 draw_card: 0,
                 autoparry: false,
-                parry_damage: 0
+                parry_damage: 0,
+                description: "“Strats card. Not to be confused with Stats. Hurt yourself and hurt the enemy even more.”"
             };
         default:
             return {
@@ -111,7 +118,8 @@ function get_stats(card)
                 mana_heal: 0,
                 draw_card: 0,
                 autoparry: false,
-                parry_damage: 0
+                parry_damage: 0,
+                description: "If you are seeing this the game is bugged."
             };
     }
 }
