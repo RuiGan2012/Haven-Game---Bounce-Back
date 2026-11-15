@@ -32,7 +32,7 @@
   "origin":4,
   "parent":{
     "name":"Characters",
-    "path":"folders/Sprites/Characters.yy",
+    "path":"folders/Sprites/Cards/Characters.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
