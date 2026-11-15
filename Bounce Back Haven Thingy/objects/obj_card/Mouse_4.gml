@@ -8,7 +8,6 @@ if (obj_battle_player.mana >= stats.mana)
     obj_battle_player.hp -= stats.self_damage;
     obj_battle_player.hp = clamp(obj_battle_player.hp, 0, obj_battle_player.hpmax);
     obj_battle_player.mana -= (stats.mana - stats.mana_heal);
-    obj_battle_player.mana = clamp(obj_battle_player.mana, 0, obj_battle_player.mana_max);
     obj_battle_player.damage_multiplier += stats.damage_multiplier;
     obj_battle_enemy.enemy_hp -= stats.damage;
     obj_card_manager.draw_card(stats.draw_card);
