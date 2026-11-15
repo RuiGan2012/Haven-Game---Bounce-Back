@@ -11,7 +11,6 @@ spr_card_strats
 );
 hp = hpmax;
 mana = 10;
-mana_max = 10;
 autoparry = 0;
 parry_damage = 0;
 damage_multiplier = 1;

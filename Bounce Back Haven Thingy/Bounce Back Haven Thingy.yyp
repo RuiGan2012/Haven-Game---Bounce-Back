@@ -21,7 +21,9 @@
     {"$GMFolder":"","%Name":"tiles","folderPath":"folders/Sprites/tiles.yy","name":"tiles","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"PhoenixiansBold-ynE2.ttf","CopyToMask":-1,"filePath":"datafiles","name":"PhoenixiansBold-ynE2.ttf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -30,6 +32,7 @@
   "name":"Bounce Back Haven Thingy",
   "resources":[
     {"id":{"name":"obj_battle_enemy","path":"objects/obj_battle_enemy/obj_battle_enemy.yy",},},
+    {"id":{"name":"obj_battle_manager","path":"objects/obj_battle_manager/obj_battle_manager.yy",},},
     {"id":{"name":"obj_battle_player","path":"objects/obj_battle_player/obj_battle_player.yy",},},
     {"id":{"name":"obj_card_dex","path":"objects/obj_card_dex/obj_card_dex.yy",},},
     {"id":{"name":"obj_card_manager","path":"objects/obj_card_manager/obj_card_manager.yy",},},
@@ -38,6 +41,7 @@
     {"id":{"name":"obj_npc1","path":"objects/obj_npc1/obj_npc1.yy",},},
     {"id":{"name":"obj_npc2","path":"objects/obj_npc2/obj_npc2.yy",},},
     {"id":{"name":"obj_npc3","path":"objects/obj_npc3/obj_npc3.yy",},},
+    {"id":{"name":"obj_font","path":"objects/obj_font/obj_font.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_use_card_animation","path":"objects/obj_use_card_animation/obj_use_card_animation.yy",},},
     {"id":{"name":"Battle","path":"rooms/Battle/Battle.yy",},},

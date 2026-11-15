@@ -53,7 +53,7 @@ function get_stats(card)
                 self_damage: 0,
                 damage_multiplier: 0,
                 heal: 2,
-                mana_heal: 2,
+                mana_heal: 0,
                 draw_card: 0,
                 autoparry: false,
                 parry_damage: 0
@@ -67,7 +67,7 @@ function get_stats(card)
                 self_damage: 0,
                 damage_multiplier: 0,
                 heal: 0,
-                mana_heal: 2,
+                mana_heal: 0,
                 draw_card: 2,
                 autoparry: false,
                 parry_damage: 0

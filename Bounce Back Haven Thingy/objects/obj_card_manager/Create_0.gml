@@ -8,6 +8,7 @@ instance_create_layer(0,0,"Instances",obj_card, {sprite_index: spr_card_deal});
 instance_create_layer(0,0,"Instances",obj_card, {sprite_index: spr_card_relax});
 instance_create_layer(0,0,"Instances",obj_card, {sprite_index: spr_card_rules});
 instance_create_layer(0,0,"Instances",obj_card, {sprite_index: spr_card_sharpen});
+instance_create_layer(0,0,"Instances",obj_card, {sprite_index: spr_card_strats});
 
 function draw_card(amount)
 {
