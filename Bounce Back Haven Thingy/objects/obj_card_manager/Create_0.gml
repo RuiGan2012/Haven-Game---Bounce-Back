@@ -1,5 +1,4 @@
 randomise();
-
 cards_in_hand = ds_list_create()
 current_list_size = 0
 card_width = 72
