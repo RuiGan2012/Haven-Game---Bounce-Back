@@ -28,5 +28,9 @@ if obj_battle_manager.player_use_card == false && obj_battle_manager.turn == 0
         ds_list_delete(obj_card_manager.cards_in_hand, ds_list_find_index(obj_card_manager.cards_in_hand, self));
         obj_battle_manager.player_use_card = true;
         instance_destroy(self);
+    }else{
+    audio_play_sound(snd_cancel,90,false)
     }
+}else{
+    audio_play_sound(snd_cancel,90,false)
 }
