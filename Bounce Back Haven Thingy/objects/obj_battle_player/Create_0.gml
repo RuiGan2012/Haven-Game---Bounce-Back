@@ -17,5 +17,6 @@ mana = 10;
 autoparry = 0;
 parry_damage = 0;
 damage_multiplier = 1;
+parry = false;
 image_xscale = -2;
 image_yscale = 2;
