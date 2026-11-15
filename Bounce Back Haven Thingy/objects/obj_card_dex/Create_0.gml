@@ -5,7 +5,7 @@ function get_stats(card)
         case spr_card_autoparry:
             return {
                 use: spr_use_autoparry,
-                mana: 3,
+                mana: 5,
                 damage: 0,
                 self_damage: 0,
                 damage_multiplier: 0,
