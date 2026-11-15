@@ -77,8 +77,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Battle","path":"rooms/Battle/Battle.yy",},},
     {"roomId":{"name":"MafiaHQ","path":"rooms/MafiaHQ/MafiaHQ.yy",},},
+    {"roomId":{"name":"Battle","path":"rooms/Battle/Battle.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
