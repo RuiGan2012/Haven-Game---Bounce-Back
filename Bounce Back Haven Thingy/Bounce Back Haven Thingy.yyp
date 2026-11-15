@@ -46,6 +46,7 @@
     {"id":{"name":"obj_npc1","path":"objects/obj_npc1/obj_npc1.yy",},},
     {"id":{"name":"obj_npc2","path":"objects/obj_npc2/obj_npc2.yy",},},
     {"id":{"name":"obj_npc3","path":"objects/obj_npc3/obj_npc3.yy",},},
+    {"id":{"name":"obj_parry","path":"objects/obj_parry/obj_parry.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_use_card_animation","path":"objects/obj_use_card_animation/obj_use_card_animation.yy",},},
     {"id":{"name":"Battle","path":"rooms/Battle/Battle.yy",},},
@@ -76,6 +77,8 @@
     {"id":{"name":"spr_npc_1","path":"sprites/spr_npc_1/spr_npc_1.yy",},},
     {"id":{"name":"spr_npc_2","path":"sprites/spr_npc_2/spr_npc_2.yy",},},
     {"id":{"name":"spr_npc_3","path":"sprites/spr_npc_3/spr_npc_3.yy",},},
+    {"id":{"name":"spr_parry","path":"sprites/spr_parry/spr_parry.yy",},},
+    {"id":{"name":"spr_player_parry","path":"sprites/spr_player_parry/spr_player_parry.yy",},},
     {"id":{"name":"spr_player_shoot_1","path":"sprites/spr_player_shoot_1/spr_player_shoot_1.yy",},},
     {"id":{"name":"spr_player_shoot_2","path":"sprites/spr_player_shoot_2/spr_player_shoot_2.yy",},},
     {"id":{"name":"spr_right_stand","path":"sprites/spr_right_stand/spr_right_stand.yy",},},
@@ -98,8 +101,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"MafiaHQ","path":"rooms/MafiaHQ/MafiaHQ.yy",},},
     {"roomId":{"name":"Battle","path":"rooms/Battle/Battle.yy",},},
+    {"roomId":{"name":"MafiaHQ","path":"rooms/MafiaHQ/MafiaHQ.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
