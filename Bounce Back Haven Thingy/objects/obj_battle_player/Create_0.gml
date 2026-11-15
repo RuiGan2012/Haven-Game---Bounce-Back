@@ -15,7 +15,7 @@ spr_card_protege,
 spr_card_wrath
 );
 hp = hpmax;
-mana = 10;
+mana = 3;
 autoparry = 0;
 parry_damage = 0;
 damage_multiplier_base = 1;

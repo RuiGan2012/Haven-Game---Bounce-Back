@@ -17,6 +17,7 @@ if obj_battle_player.parry == false
     obj_battle_player.hp += 3
     obj_battle_player.hp = clamp(obj_battle_player.hp, 0, obj_battle_player.hpmax);
     audio_play_sound(snd_parry,60,false)
+    instance_create_layer(obj_battle_player.x,obj_battle_player.y-160,"Instances",  obj_bounce)
     obj_battle_player.parry = false
 }
 alarm[2] = 75
