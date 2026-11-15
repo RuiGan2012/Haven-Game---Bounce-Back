@@ -10,7 +10,9 @@ spr_card_deal,
 spr_card_relax,
 spr_card_rules,
 spr_card_sharpen,
-spr_card_strats
+spr_card_strats,
+spr_card_protege,
+spr_card_wrath
 );
 hp = hpmax;
 mana = 10;
@@ -21,3 +23,5 @@ damage_multiplier = damage_multiplier_base;
 parry = false;
 image_xscale = -2;
 image_yscale = 2;
+
+obj_card_manager.draw_card(4)
