@@ -4,6 +4,7 @@ if obj_battle_manager.player_use_card == false && obj_battle_manager.turn == 0
     if (!is_struct(stats)) exit;
     if (obj_battle_player.mana >= stats.mana)
     { 
+        audio_play_sound(snd_select,40,false)
         obj_battle_player.autoparry += (stats.autoparry ? 1 : 0);
         obj_battle_player.parry_damage += stats.parry_damage;
         obj_battle_player.hp += stats.heal;
@@ -15,6 +16,7 @@ if obj_battle_manager.player_use_card == false && obj_battle_manager.turn == 0
         if stats.damage > 0
         {
             obj_battle_player.damage_multiplier = obj_battle_player.damage_multiplier_base;
+            audio_play_sound(snd_hit_enemy,50,false)
         }
         
         obj_card_manager.draw_card(stats.draw_card);
@@ -26,5 +28,9 @@ if obj_battle_manager.player_use_card == false && obj_battle_manager.turn == 0
         ds_list_delete(obj_card_manager.cards_in_hand, ds_list_find_index(obj_card_manager.cards_in_hand, self));
         obj_battle_manager.player_use_card = true;
         instance_destroy(self);
+    }else{
+    audio_play_sound(snd_cancel,90,false)
     }
+}else{
+    audio_play_sound(snd_cancel,90,false)
 }
