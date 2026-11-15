@@ -18,5 +18,6 @@ function draw_card(amount)
         instance_create_layer(0,0,"Instances",obj_card, {sprite_index: ds_list_find_value(
             obj_battle_player.card_set, irandom_range(0, ds_list_size(obj_battle_player.card_set)-1
         ))});
+        if (ds_list_size(cards_in_hand) >= 6) exit;
     }
 }

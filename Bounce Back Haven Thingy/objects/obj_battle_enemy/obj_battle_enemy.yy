@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_brute",
-    "path":"sprites/spr_brute/spr_brute.yy",
+    "name":"spr_brute_idle",
+    "path":"sprites/spr_brute_idle/spr_brute_idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

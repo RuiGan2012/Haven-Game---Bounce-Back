@@ -31,8 +31,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Characters",
-    "path":"folders/Sprites/Cards/Characters.yy",
+    "name":"Battle Characters",
+    "path":"folders/Sprites/Battle Characters.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
