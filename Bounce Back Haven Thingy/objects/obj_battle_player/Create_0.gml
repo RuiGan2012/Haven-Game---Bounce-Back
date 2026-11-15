@@ -1,6 +1,7 @@
 x = 160
 y = 360
 hpmax = 20;
+gun_damage = 1;
 card_set = ds_list_create();
 ds_list_add(card_set,
 spr_card_autoparry,
