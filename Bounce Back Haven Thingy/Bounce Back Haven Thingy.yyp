@@ -81,6 +81,7 @@
     {"id":{"name":"spr_player_shoot_2","path":"sprites/spr_player_shoot_2/spr_player_shoot_2.yy",},},
     {"id":{"name":"spr_right_stand","path":"sprites/spr_right_stand/spr_right_stand.yy",},},
     {"id":{"name":"spr_right_walk","path":"sprites/spr_right_walk/spr_right_walk.yy",},},
+    {"id":{"name":"spr_text_box","path":"sprites/spr_text_box/spr_text_box.yy",},},
     {"id":{"name":"spr_use_autoparry","path":"sprites/spr_use_autoparry/spr_use_autoparry.yy",},},
     {"id":{"name":"spr_use_capone","path":"sprites/spr_use_capone/spr_use_capone.yy",},},
     {"id":{"name":"spr_use_card_back","path":"sprites/spr_use_card_back/spr_use_card_back.yy",},},
@@ -97,8 +98,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Battle","path":"rooms/Battle/Battle.yy",},},
     {"roomId":{"name":"MafiaHQ","path":"rooms/MafiaHQ/MafiaHQ.yy",},},
+    {"roomId":{"name":"Battle","path":"rooms/Battle/Battle.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
