@@ -14,7 +14,7 @@ if obj_battle_manager.player_use_card == false && obj_battle_manager.turn == 0
         obj_battle_enemy.enemy_hp -= (stats.damage * obj_battle_player.damage_multiplier);
         if stats.damage > 0
         {
-            obj_battle_player.damage_multiplier = 1;
+            obj_battle_player.damage_multiplier = obj_battle_player.damage_multiplier_base;
         }
         
         obj_card_manager.draw_card(stats.draw_card);
