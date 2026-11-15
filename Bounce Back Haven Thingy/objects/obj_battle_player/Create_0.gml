@@ -1,3 +1,5 @@
+x = 160
+y = 360
 hpmax = 20;
 card_set = ds_list_create();
 ds_list_add(card_set,
@@ -14,4 +16,5 @@ mana = 10;
 autoparry = 0;
 parry_damage = 0;
 damage_multiplier = 1;
-image_xscale = -1;
+image_xscale = -2;
+image_yscale = 2;
