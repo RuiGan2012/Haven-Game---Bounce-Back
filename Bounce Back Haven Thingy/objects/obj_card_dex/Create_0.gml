@@ -1,8 +1,10 @@
 function get_stats(card)
 {
-    switch(card){
+    switch(card)
+    {
         case spr_card_autoparry:
             return {
+                use: spr_use_autoparry,
                 mana: 3,
                 damage: 0,
                 self_damage: 0,
@@ -16,6 +18,7 @@ function get_stats(card)
             
         case spr_card_capone:
             return {
+                use: spr_use_capone,
                 mana: 1,
                 damage: 0,
                 self_damage: 0,
@@ -30,6 +33,7 @@ function get_stats(card)
             
         case spr_card_deal:
             return {
+                use: spr_use_deal,
                 mana: 0,
                 damage: 0,
                 self_damage: 1,
@@ -43,6 +47,7 @@ function get_stats(card)
             
         case spr_card_relax:
              return {
+                use: spr_use_relax,
                 mana: 3,
                 damage: 0,
                 self_damage: 0,
@@ -56,6 +61,7 @@ function get_stats(card)
             
         case spr_card_rules:
             return {
+                use: spr_use_rules,
                 mana: 3,
                 damage: 0,
                 self_damage: 0,
@@ -69,6 +75,7 @@ function get_stats(card)
             
         case spr_card_sharpen:
             return {
+                use: spr_use_sharpen,
                 mana: 1,
                 damage: 0,
                 self_damage: 0,
@@ -82,6 +89,7 @@ function get_stats(card)
             
         case spr_card_strats:
             return {
+                use: spr_use_strats,
                 mana: 5,
                 damage: 6,
                 self_damage: 3,
