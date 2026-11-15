@@ -10,6 +10,7 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"Sounds","folderPath":"folders/Sounds.yy","name":"Sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Battle Buttons","folderPath":"folders/Objects/Battle Buttons.yy","name":"Battle Buttons","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"npcs","folderPath":"folders/Objects/npcs.yy","name":"npcs","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -52,6 +53,11 @@
     {"id":{"name":"obj_use_card_animation","path":"objects/obj_use_card_animation/obj_use_card_animation.yy",},},
     {"id":{"name":"Battle","path":"rooms/Battle/Battle.yy",},},
     {"id":{"name":"MafiaHQ","path":"rooms/MafiaHQ/MafiaHQ.yy",},},
+    {"id":{"name":"snd_boss_alt","path":"sounds/snd_boss_alt/snd_boss_alt.yy",},},
+    {"id":{"name":"snd_hit_enemy","path":"sounds/snd_hit_enemy/snd_hit_enemy.yy",},},
+    {"id":{"name":"snd_hit_player","path":"sounds/snd_hit_player/snd_hit_player.yy",},},
+    {"id":{"name":"snd_parry","path":"sounds/snd_parry/snd_parry.yy",},},
+    {"id":{"name":"snd_select","path":"sounds/snd_select/snd_select.yy",},},
     {"id":{"name":"spr_back_stand","path":"sprites/spr_back_stand/spr_back_stand.yy",},},
     {"id":{"name":"spr_back_walk","path":"sprites/spr_back_walk/spr_back_walk.yy",},},
     {"id":{"name":"spr_Battle_Background","path":"sprites/spr_Battle_Background/spr_Battle_Background.yy",},},
@@ -103,8 +109,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"MafiaHQ","path":"rooms/MafiaHQ/MafiaHQ.yy",},},
     {"roomId":{"name":"Battle","path":"rooms/Battle/Battle.yy",},},
+    {"roomId":{"name":"MafiaHQ","path":"rooms/MafiaHQ/MafiaHQ.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
